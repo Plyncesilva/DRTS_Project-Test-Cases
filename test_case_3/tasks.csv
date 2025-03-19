@@ -1,6 +1,0 @@
-task_name,wcet,period,component_id,scheduler,priority
-Task_0,7,100,Component_1,RM,0
-Task_1,26,200,Component_1,RM,1
-Task_2,13,100,Component_2,EDF,
-Task_3,111,300,Component_2,EDF,
-Task_4,1,5,Component_2,EDF,

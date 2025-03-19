@@ -1,4 +1,0 @@
-component_id,scheduler,budget,period,core_id
-Component_1,RM,2,5,Core_1
-Component_2,EDF,12,13,Core_2
-Component_3,RM,3,7,Core_3

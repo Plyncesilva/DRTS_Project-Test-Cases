@@ -1,0 +1,5 @@
+component_id,scheduler,budget,period,core_id
+Camera_Sensor,RM,12,20,Core_1
+Image_Processor,EDF,8,21,Core_1
+Lidar_Sensor,RM,1,3,Core_2
+Control_Unit,EDF,13,20,Core_2
