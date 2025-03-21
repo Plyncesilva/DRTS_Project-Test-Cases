@@ -8,7 +8,7 @@ This folder contains test cases in a CSV format that define test cases for the 0
 *   **`tasks.csv`:**  Defines the task set, including task parameters and component assignments.
 *   **`architecture.csv`:** Defines the hardware platform (cores and their speeds).
 *   **`budgets.csv`:** Defines the initial budget and period for each component, along with the component-to-core mapping.
-*   **`solution.csv`:** *Suggested* output file format for reporting results.
+*   **`solution.csv`:** *Suggested* output file format for reporting results. [in progress]
 
 ## Input and Output Flow Diagram
 
@@ -38,7 +38,6 @@ This file describes the individual tasks within the system.
 *   **`wcet`:** The Worst-Case Execution Time (WCET) of the task in time units, assuming a nominal core speed (speed\_factor = 1.0) (float).
 *   **`period`:** The period of the task in time units (float).
 *   **`component_id`:**  The ID of the component to which the task is assigned (string).  
-*   **`scheduler`:** The scheduling algorithm used for the component to which the task belongs (either "EDF" or "RM") (string).
 *   **`priority`:**  The priority of the task (integer).  This column is *only* relevant for tasks within components that use RM scheduling.  For EDF components, this column will be empty. Priorities are assigned based on the Rate Monotonic (RM) principle (shorter period = higher priority).
 
 ## `architecture.csv` - Architecture Model
@@ -49,27 +48,25 @@ This file describes the hardware platform, specifically the cores and their rela
 
 *   **`core_id`:**  A unique identifier for the core (string).
 *   **`speed_factor`:**  A numerical value representing the core's speed relative to a nominal speed.  `1.0` represents the nominal speed.  A value of `0.5` indicates a core that is 50% slower, and a value of `1.2` indicates a core that is 20% faster.  The WCET of tasks assigned to a core must be adjusted by dividing the nominal WCET by the `speed_factor`.
-
-**Note:** This particular test case defines only a single core ("Core_1") with a nominal speed factor of 1.0.
+*   **`scheduler`:** Top level scheduler for this core, `RM` or `EDF`.
 
 ## `budgets.csv` - Initial Budgets, Periods, and Component-Core Mapping
 
-This file provides the initial budget and period for each component, derived from the PRM interface parameters (Theta, Pi) calculated by the `partition_scheduler.py` script. It also shows which core the component is assigned to.
+This file provides the initial budget and period for each component, derived from PRM interface parameters (Theta, Pi). It also shows which core the component is assigned to.
 
 **Columns:**
 
 *   **`component_id`:** The ID of the component (string).  This matches the `component_id` used in `tasks.csv`.
-*   **`scheduler`:** The scheduling algorithm used for the component (either "EDF" or "RM") (string).
+*   **`scheduler`:** The scheduling algorithm used for the component (either `EDF` or `RM`) (string).
 *   **`budget`:**  The initial budget (Q) for the component, in time units (float). This value represents the resource allocation for each component.
 *   **`period`:** The initial period (P) for the component, in time units (float).
 *    **`core_id`:**  The ID of the core to which the component is assigned (string). This corresponds to the `core_id` in `architecture.csv`.
 
 **Important Notes:**
 
-*   **Initial Values:** The budget and period values are *initial* values derived from a PRM-based analysis.  Students are expected to treat these as starting points and may need to further optimize them. They are also expected to perform BDR based analysis.
-*    **Single Core:** This particular CSV is generated to represent one single core.
+*   **Initial Values:** The budget and period values are *initial* values derived from a PRM-based analysis. Students are expected to treat these as starting points and may need to further optimize them. They are also expected to perform BDR based analysis.
 
-## `solution.csv` - Suggested Output Format
+## Suggested Output Format
 
 This file is a *suggestion* for how students might report the results of their simulator and analysis tool.  Students are free to modify the input and output formats as they see fit for their project.
 
