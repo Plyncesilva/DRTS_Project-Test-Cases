@@ -1,2 +1,2 @@
 component_id,scheduler,budget,period,core_id,priority
-Camera_Sensor,RM,8,13,Core_1,1
+Camera_Sensor,RM,84,84,Core_1,0

@@ -1,3 +1,3 @@
 task_name,wcet,period,component_id,priority
-Task_0,13,100,Camera_Sensor,0
-Task_1,141,300,Camera_Sensor,1
+Task_0,14,50,Camera_Sensor,0
+Task_1,33,100,Camera_Sensor,1
