@@ -1,0 +1,8 @@
+component_id,scheduler,budget,period,core_id,priority
+Camera_Sensor,RM,4,11,Core_1,
+Image_Processor,EDF,2,7,Core_1,
+Bitmap_Processor,RM,1,7,Core_1,
+Lidar_Sensor,RM,1,3,Core_2,
+Control_Unit,EDF,4,6,Core_2,
+GPS_Sensor,RM,3,13,Core_3,1
+Communication_Unit,RM,2,4,Core_3,0

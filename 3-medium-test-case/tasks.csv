@@ -11,9 +11,9 @@ Task_8,1,25,Lidar_Sensor,0
 Task_9,4,100,Lidar_Sensor,2
 Task_10,2,50,Lidar_Sensor,1
 Task_11,3,200,Lidar_Sensor,3
-Task_12,1,25,Control_Unit,
-Task_13,1,10,Control_Unit,
+Task_12,3,75,Control_Unit,
+Task_13,4,40,Control_Unit,
 Task_14,6,100,Control_Unit,
 Task_15,4,50,Control_Unit,
 Task_16,5,75,Control_Unit,
-Task_17,1,20,Control_Unit,
+Task_17,6,120,Control_Unit,
