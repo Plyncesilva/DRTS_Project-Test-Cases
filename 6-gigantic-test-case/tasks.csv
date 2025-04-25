@@ -28,7 +28,7 @@ Task_25,2,10,Radar_Sensor,
 Task_26,17,100,Radar_Sensor,
 Task_27,46,200,Radar_Sensor,
 Task_28,10,60,Sonar_Sensor,0
-Task_29,8,100,Sonar_Sensor,1
+Task_29,16,200,Sonar_Sensor,1
 Task_30,12,100,Laser_Sensor,2
 Task_31,1,25,Laser_Sensor,0
 Task_32,8,50,Laser_Sensor,1
@@ -61,11 +61,11 @@ Task_58,1,50,Light_Sensor,0
 Task_59,8,100,Light_Sensor,1
 Task_60,38,300,Light_Sensor,2
 Task_61,35,200,Sound_Sensor,0
-Task_62,5,300,Sound_Sensor,1
+Task_62,10,600,Sound_Sensor,1
 Task_63,3,75,Vibration_Sensor,
 Task_64,2,100,Vibration_Sensor,
 Task_65,20,200,Motion_Sensor,0
-Task_66,56,300,Motion_Sensor,1
+Task_66,56,400,Motion_Sensor,1
 Task_67,1,25,Acceleration_Sensor,0
 Task_68,4,75,Acceleration_Sensor,1
 Task_69,13,100,Acceleration_Sensor,2
@@ -78,10 +78,10 @@ Task_75,6,200,Gyroscope_Sensor,
 Task_76,1,20,Gyroscope_Sensor,
 Task_77,1,20,Magnetometer_Sensor,0
 Task_78,3,60,Magnetometer_Sensor,1
-Task_79,2,100,Compass_Sensor,1
+Task_79,4,200,Compass_Sensor,1
 Task_80,3,300,Compass_Sensor,2
 Task_81,3,75,Compass_Sensor,0
-Task_82,4,400,Compass_Sensor,3
+Task_82,6,600,Compass_Sensor,3
 Task_83,5,125,Altimeter_Sensor,
 Task_84,3,400,Altimeter_Sensor,
 Task_85,2,300,Altimeter_Sensor,

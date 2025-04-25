@@ -7,14 +7,14 @@ Task_4,2,150,Camera_Sensor,2
 Task_5,2,50,Image_Processor,
 Task_6,4,80,Image_Processor,
 Task_7,2,200,Image_Processor,
-Task_8,2,110,Bitmap_Processor,1
+Task_8,4,220,Bitmap_Processor,1
 Task_9,2,300,Bitmap_Processor,2
 Task_10,3,75,Bitmap_Processor,0
 Task_11,3,900,Bitmap_Processor,3
 Task_12,8,100,Lidar_Sensor,1
 Task_13,9,90,Lidar_Sensor,0
 Task_14,3,150,Lidar_Sensor,2
-Task_15,12,500,Lidar_Sensor,3
+Task_15,24,1000,Lidar_Sensor,3
 Task_16,2,200,Control_Unit,
 Task_17,7,70,Control_Unit,
 Task_18,4,800,Control_Unit,
