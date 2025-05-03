@@ -1,6 +1,6 @@
 task_name,wcet,period,component_id,priority
 Task_0,3,20,Camera_Sensor,0
-Task_1,10,60,Camera_Sensor,1
+Task_1,20,120,Camera_Sensor,1
 Task_2,8,100,Image_Processor,
 Task_3,10,300,Image_Processor,
 Task_4,10,100,Bitmap_Processor,0
@@ -24,17 +24,17 @@ Task_21,2,50,Communication_Unit,0
 Task_22,3,150,Proximity_Sensor,
 Task_23,8,100,Proximity_Sensor,
 Task_24,2,200,Proximity_Sensor,
-Task_25,2,100,Radar_Sensor,
+Task_25,4,200,Radar_Sensor,
 Task_26,45,100,Radar_Sensor,
 Task_27,75,300,Radar_Sensor,
 Task_28,4,25,Sonar_Sensor,0
 Task_29,8,75,Sonar_Sensor,1
 Task_30,1,10,Laser_Sensor,0
 Task_31,8,100,Laser_Sensor,2
-Task_32,30,300,Laser_Sensor,3
+Task_32,29,300,Laser_Sensor,3
 Task_33,2,50,Laser_Sensor,1
 Task_34,2,20,Infrared_Sensor,0
-Task_35,2,25,Infrared_Sensor,1
+Task_35,4,50,Infrared_Sensor,1
 Task_36,2,100,Infrared_Sensor,2
 Task_37,2,100,Ultraviolet_Sensor,
 Task_38,1,100,Ultraviolet_Sensor,
@@ -52,7 +52,7 @@ Task_49,2,40,Pressure_Sensor,0
 Task_50,1,50,Pressure_Sensor,1
 Task_51,4,100,Pressure_Sensor,2
 Task_52,56,100,Humidity_Sensor,0
-Task_53,25,200,Humidity_Sensor,1
+Task_53,50,400,Humidity_Sensor,1
 Task_54,2,40,Temperature_Sensor,
 Task_55,17,100,Temperature_Sensor,
 Task_56,28,225,Temperature_Sensor,
