@@ -82,7 +82,7 @@ Task_79,4,200,Compass_Sensor,1
 Task_80,3,300,Compass_Sensor,2
 Task_81,3,75,Compass_Sensor,0
 Task_82,6,600,Compass_Sensor,3
-Task_83,5,125,Altimeter_Sensor,
+Task_83,5,150,Altimeter_Sensor,
 Task_84,3,400,Altimeter_Sensor,
 Task_85,2,300,Altimeter_Sensor,
 Task_86,16,40,Barometer_Sensor,
